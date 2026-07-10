@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">CorridaInteligente</string>
+
+    <string name="titulo_home">Corrida Inteligente</string>
+
+    <string name="status">Status</string>
+
+    <string name="acessibilidade_desligada">
+        Acessibilidade: Desligada
+    </string>
+
+    <string name="overlay_desligado">
+        Overlay: Desligado
+    </string>
+
+    <string name="btn_iniciar">
+        Iniciar Serviço
+    </string>
+
+    <string name="btn_configuracoes">
+        Configurações
+    </string>
+    
+    <string name="btn_historico">
+        Histórico
+    </string>
 </resources>
