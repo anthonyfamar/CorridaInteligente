@@ -8,12 +8,62 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Corrida Inteligente"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text=" 🏍️ Corrida Inteligente"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_margin="32dp"/>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardControles"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+
+        app:layout_constraintTop_toBottomOf="@id/textTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Controles"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <com.google.android.material.materialswitch.MaterialSwitch
+                android:id="@+id/swAcessibilidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Acessibilidade"/>
+
+            <com.google.android.material.materialswitch.MaterialSwitch
+                android:id="@+id/swOverlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Overlay"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width=""
+        android:layout_height="">
+
+    </com.google.android.material.card.MaterialCardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
