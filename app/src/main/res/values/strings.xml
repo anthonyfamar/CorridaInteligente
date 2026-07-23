@@ -1,27 +1,35 @@
 <resources>
-    <string name="app_name">CorridaInteligente</string>
 
     <string name="titulo_home">Corrida Inteligente</string>
 
-    <string name="status">Status</string>
+    <string name="controles">Controles</string>
 
-    <string name="acessibilidade_desligada">
-        Acessibilidade: Desligada
-    </string>
+    <string name="monitoramento">Monitoramento de corridas</string>
 
-    <string name="overlay_desligado">
-        Overlay: Desligado
-    </string>
+    <string name="mostrar_overlay">Mostrar informações na tela</string>
 
-    <string name="btn_iniciar">
-        Iniciar Serviço
-    </string>
+    <string name="configuracao_atual">Configuração Atual</string>
 
-    <string name="btn_configuracoes">
-        Configurações
-    </string>
+    <string name="lbl_valor_km">Valor mínimo por km</string>
+    
+    <string name="lbl_valor_hora">Valor mínimo por hora</string>
 
-    <string name="btn_historico">
-        Histórico
-    </string>
+    <string name="lbl_aplicativos">Aplicativos monitorados</string>
+
+    <string name="lbl_modo">Modo de análise</string>
+
+    <string name="valor_km">R$ 2,00</string>
+
+    <string name="valor_hora">R$ 35,00</string>
+
+    <string name="aplicativos">Uber e 99</string>
+
+    <string name="modo">Automático</string>
+
+    <string name="btn_iniciar">Iniciar Serviço</string>
+
+    <string name="btn_configuracoes">Configurações</string>
+
+    <string name="btn_historico">Histórico</string>
+
 </resources>
