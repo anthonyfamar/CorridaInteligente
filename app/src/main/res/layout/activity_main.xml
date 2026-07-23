@@ -92,9 +92,47 @@
                 android:textStyle="bold"/>
 
             <TextView
+                android:id="@+id/tvValorKm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/lbl_valor_km"
+                android:text="@string/valor_km"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/lbl_valor_hora"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvValorHora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/valor_hora"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/lbl_aplicativos"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvAplicativos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aplicativos" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/lbl_modo"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvModo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/modo" />
 
         </LinearLayout>
 
@@ -107,7 +145,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="20dp"
         android:text="@string/btn_iniciar"
 
         app:layout_constraintTop_toBottomOf="@id/cardConfigAtual"
